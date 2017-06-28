@@ -32,7 +32,7 @@ On Linux run the following command.
       
 On a Mac this will be something like
 
-      ? find this out
+      sudo route add 224.0.0.0 127.0.0.1 -netmask 240.0.0.0
       
 Now lets create a cluster of 2 brokers by running the CLI commands 
 
